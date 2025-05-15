@@ -9,7 +9,7 @@ if(isset($_GET['p'])){
 <?php
   session_start();
   require("../includes/header.php");
-  if (!isset($_SESSION['adminuser'])) header("Location: login.php");
+  if (!isset($_SESSION['adminuser'])) header("Location: index.php");
 
 ?>
 
